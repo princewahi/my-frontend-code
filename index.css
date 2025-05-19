@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+  }
+  
+ 
+
+  .navbar {
+    background-color: #d61a3c;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  .logo span {
+    color: #fff;
+    font-weight: normal;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  .nav-links a:hover {
+    color: #ffd700;
+  }
+  .menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+  
+
+  .image {
+    background: url('https://img2.shaadi.com/assests/semlandingpage2/home-banner-ri.webp') no-repeat center center/cover;
+    color: white;
+    width: 100%;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  .image h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  .image p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  .gs-button {
+    background-color: white;
+    color: #d61a3c;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 2.5s;
+  }
+
+
+
+
+
+  
+.form-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+.form-box {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.form-box input,
+.form-box button {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.form-box button {
+  background-color: #d61a3c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.form-box button:hover {
+  background-color: #b81434;
+}
+
+
+
+
+
+  .gs-button:hover{
+    background-color: rgb(138, 214, 22);
+  }
+  
+
+
+  .how-it-works {
+    background-color: rgb(220, 214, 214);
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .how-it-works h2 {
+    margin-bottom: 20px;
+  }
+  .steps {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .step {
+    max-width: 250px;
+  }
+  
+ 
+  .profiles {
+    padding: 60px 20px;
+    background-color: #e8b7b7;
+    text-align: center;
+  }
+  .profile-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .profile-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 200px;
+    text-align: center;
+  }
+  .profile-card img {
+    border-radius: 10%;
+    margin-bottom: 15px;
+  }
+  
+
+  .testimonials {
+    padding: 60px 20px;
+    background-color: #fff5f7;
+    text-align: center;
+  }
+  .testimonial {
+    max-width: 600px;
+    margin: 0 auto;
+    font-style: italic;
+  }
+  
+
+  footer {
+    background-color: #d61a3c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+
+
+
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    background: #d61a3c;
+    padding: 10px 0;
+  }
+  .nav-links.active {
+    display: flex;
+  }
+  .menu-toggle {
+    display: block;
+    color: white;
+  }
+}
